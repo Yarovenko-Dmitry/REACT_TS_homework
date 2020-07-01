@@ -1,5 +1,57 @@
-.messageConteiner {
-  width: 150px;
+.popupMessage {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 250px;
   height: 100px;
-  border: green 1px solid;
+  right: 10px;
+  bottom: 10px;
+  /*border: green 1px solid;*/
+  background-color: tan;
+  border-radius: 9px;
+}
+
+.imgFriend {
+  width: 50px;
+  height: 50px;
+  /*border: #0f1bf7 1px solid;*/
+  border-radius: 50%;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 160px;
+  height: 80px;
+  /*border: #002080 1px solid;*/
+  border-radius: 5px;
+  background-color: #002080;
+}
+
+.messagePanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 95px;
+  /*border: #806900 1px solid;*/
+}
+
+.userName {
+  color: white;
+  /*border: #770080 1px solid;*/
+}
+
+.userMessage {
+  color: yellow;
+  /*border: #800000 1px solid;*/
+}
+
+.time {
+  position: relative;
+  height: 20px;
+  top: 55px;
+  color: #ff2f00;
+  /*border: #002080 1px solid;*/
 }

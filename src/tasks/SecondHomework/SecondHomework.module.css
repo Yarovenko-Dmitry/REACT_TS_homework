@@ -1,0 +1,39 @@
+.SecondHomework {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  margin: 5%;
+  border: #800000 1px solid;
+}
+
+.SecondTaskOneTask {
+  display: flex;
+  border: #002080 1px solid;
+}
+
+.SecondTaskOneTaskName {
+  width: 49%;
+  border: #800000 1px solid;
+}
+
+.SecondTaskOneTaskPriority {
+  width: 24%;
+  border: #028000 1px solid;
+}
+
+.SecondTaskOneTaskPriority:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+.SecondTaskOneTaskDeleteButton {
+  color: #ff0044;
+  cursor: pointer;
+}
+
+.SecondTaskPriorityButtonsConteiner {
+  display: flex;
+  justify-content: space-between;
+  color: #ffe600;
+  cursor: pointer;
+}

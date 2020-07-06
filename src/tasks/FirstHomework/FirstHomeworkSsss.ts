@@ -1,13 +1,11 @@
-export type firstTaskStoreType = {
+export type firstHomeworkStateType = {
   userName: string
   userMessage: string
   time: string
 }
 
-const firstTaskStore: firstTaskStoreType = {
+export const firstHomeworkSsss: firstHomeworkStateType = {
   userName: 'Mister',
   userMessage: 'Hi, friend !',
   time: '21:27'
 }
-
-export default firstTaskStore;

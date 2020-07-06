@@ -1,9 +1,9 @@
 import React from "react";
-import s from './FirstTask.module.css';
+import s from './FirstHomework.module.css';
 import friend from './assets/friend.jpg'
-import {firstTaskStoreType} from './FirstTask-store';
+import {firstHomeworkStateType} from './FirstHomeworkSsss';
 
-const FirstTask = (props: firstTaskStoreType) => {
+const FirstHomework = (props: firstHomeworkStateType) => {
   return (
     <div className={s.popupMessage}>
       <img className={s.imgFriend} src={friend}/>
@@ -18,4 +18,5 @@ const FirstTask = (props: firstTaskStoreType) => {
   )
 }
 
-export default FirstTask;
+export default FirstHomework;
+
